@@ -1,4 +1,4 @@
-# Siemens - LOGOV8 - Soda Filling Conveyor Example
+# Siemens - LOGO!V8 - Soda Filling Conveyor Example
 This is an example of a Soda Filling Conveyor for LOGO!Soft Comfort V8.2 programmed using Function Block Diagram (FBD).
 
 <p align="center">
