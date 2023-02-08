@@ -68,11 +68,15 @@ https://youtu.be/y0FjnO8AysQ
 
 **Part 1 – Power Circuit**
 
-In this section a .SAT CAD model is imported to generate the gripper in RobotStudio and with Smart Components a sensor is placed on the TCP and the Attach/Detach function is activated with a digital input.
+The power circuit (also called “main circuit”) indicates the type of power supply for the utilized motors and all other related power devices.
+
+<img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/thumbnail.PNG" width="50%">
 
 **Part 2 – Control Circuit**
 
-In this section, a conveyor is built by applying physical properties to the belt and to the boxes. Sensors are placed at the end of the conveyor and the belt is stopped if a box is detected at the end.
+The control circuit (which can also be referred to as an automation circuit, auxiliary circuit, secondary circuit, or schematic circuit) represents the operational logic and control of the power devices.
+
+<img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/thumbnail.PNG" width="50%">
 
 **Downloading the project (download the .lsc file):**
 In case that the UDF blocks do not show up, verify that the Folder My_UDF_Blocks is linked to the project.
