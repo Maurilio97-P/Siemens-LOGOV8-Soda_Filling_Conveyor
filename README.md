@@ -25,6 +25,10 @@ This project is an example of a Soda Filling Conveyor for LOGO!Soft Comfort V8.2
 
 The process for filling up the bottles is divided in 2 parts:
 
+<p align="center">
+  <img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/sorting.PNG" width="800">
+</p>
+
 **Part I:**
 
 * When pressing start button, the pallet moves to the right as long as it has a bottle. The Motor Starting Method is Direct On-Line Starting (D.O.L.)
@@ -41,10 +45,6 @@ Finish the sequence of Part I and add the following:
 * Once the bottle has been withdrawn, the pallet reverses direction and goes to point A
 * Upon reaching point A and passing through the Pallet sensor, the process stops and ends.
 * It is requested to program for a single cycle
-
-<p align="center">
-  <img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/sorting.PNG" width="800">
-</p>
 
 The **main components** used to develop this project are:
   * Function Block Diagram (FBD)
