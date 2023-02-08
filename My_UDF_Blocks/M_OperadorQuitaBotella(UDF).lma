@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LOGO hardware="Logo8Update1UDF">
+  <Properties>
+    <Creator>Maurilio</Creator>
+    <Projectname></Projectname>
+    <Installationname></Installationname>
+    <Customer></Customer>
+    <Diagramno></Diagramno>
+    <Checked></Checked>
+    <Company></Company>
+    <Version>1.0.2</Version>
+    <Show>true</Show>
+    <Comments></Comments>
+    <Horizontal>1</Horizontal>
+    <Vertical>1</Vertical>
+    <History>
+      <DisplayedHistory>
+        <Date>1668816912729</Date>
+        <User>Maurilio</User>
+        <Version>V8.2.0</Version>
+        <Comments></Comments>
+        <Saved>false</Saved>
+      </DisplayedHistory>
+      <DeletedHistory/>
+    </History>
+    <Zoom>100</Zoom>
+    <PageFormat>
+      <Margin>
+        <Left>28.0</Left>
+        <Top>28.0</Top>
+      </Margin>
+      <Imagesize>
+        <Height>785.0</Height>
+        <Width>538.0</Width>
+      </Imagesize>
+      <Paper>
+        <Height>842.0</Height>
+        <Width>595.0</Width>
+      </Paper>
+      <Orientation>0</Orientation>
+    </PageFormat>
+    <Password>E51F9E7B199D463D857B74303452C2270F1A11D7FD821850</Password>
+  </Properties>
+  <UDFBlock guidValue="167321134749432" identifier="M_operad" comments="" version="1.0.2" blockNumber="0" inCounter="3" outCounter="1" validity="0">
+    <GuidList>
+      <Guid value="1668817043671" version="1.0.0"/>
+      <Guid value="167321133728596" version="1.0.1"/>
+      <Guid value="167321134749432" version="1.0.2"/>
+    </GuidList>
+    <Parameter/>
+    <Blocks>
+      <Block opcode="37" blockNumber="23" name="">
+        <InConnector negate="false" opcode="1" blockNumber="24" index="0"/>
+        <InConnector negate="false" opcode="16777216" blockNumber="3" index="1"/>
+        <Parameter index="2">
+          <Rem>false</Rem>
+        </Parameter>
+      </Block>
+      <Block opcode="1" blockNumber="24" name="">
+        <InConnector negate="false" opcode="16777216" blockNumber="1" index="0"/>
+        <InConnector negate="false" opcode="255" blockNumber="-1" index="1"/>
+        <InConnector negate="false" opcode="255" blockNumber="-1" index="2"/>
+        <InConnector negate="false" opcode="16777216" blockNumber="2" index="3"/>
+      </Block>
+      <InGroup>
+        <Block opcode="16777216" blockNumber="1"/>
+        <Block opcode="16777216" blockNumber="2"/>
+        <Block opcode="16777216" blockNumber="3"/>
+      </InGroup>
+      <OutGroup>
+        <Block opcode="16777280" blockNumber="1">
+          <InConnector negate="false" opcode="37" blockNumber="23" index="0"/>
+        </Block>
+      </OutGroup>
+    </Blocks>
+  </UDFBlock>
+  <Figures>
+    <Figure type="5" position="712,79">
+      <Content type="Dialog" style="0" size="12" color="-16777216"></Content>
+    </Figure>
+    <Figure type="0" area="52,79,640.0,920.0">
+      <InGroup>
+        <Figure type="1" opcode="16777216" blockNumber="1" position="46,123"/>
+        <Figure type="1" opcode="16777216" blockNumber="2" position="46,173"/>
+        <Figure type="1" opcode="16777216" blockNumber="3" position="46,232"/>
+      </InGroup>
+      <OutGroup>
+        <Figure type="1" opcode="16777280" blockNumber="1" position="686,233"/>
+      </OutGroup>
+    </Figure>
+    <Figure type="1" opcode="1" blockNumber="24" position="326,143"/>
+    <Figure type="1" opcode="37" blockNumber="23" position="376,223"/>
+    <Figure type="2">
+      <Connector index="0" opcode="1" blockNumber="24" direction="0" type="0"/>
+      <Connector index="0" opcode="37" blockNumber="23" direction="1" type="0"/>
+      <Points>
+        <Point x="357" y="158"/>
+        <Point x="359" y="158"/>
+        <Point x="359" y="228"/>
+        <Point x="370" y="228"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="37" blockNumber="23" direction="0" type="0"/>
+      <Connector index="0" opcode="16777280" blockNumber="1" direction="1" type="0"/>
+      <Points>
+        <Point x="407" y="238"/>
+        <Point x="480" y="238"/>
+        <Point x="480" y="236"/>
+        <Point x="680" y="236"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="1" direction="0" type="0"/>
+      <Connector index="0" opcode="1" blockNumber="24" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="126"/>
+        <Point x="290" y="126"/>
+        <Point x="290" y="148"/>
+        <Point x="320" y="148"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="2" direction="0" type="0"/>
+      <Connector index="3" opcode="1" blockNumber="24" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="176"/>
+        <Point x="120" y="176"/>
+        <Point x="120" y="178"/>
+        <Point x="320" y="178"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="3" direction="0" type="0"/>
+      <Connector index="1" opcode="37" blockNumber="23" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="235"/>
+        <Point x="183" y="235"/>
+        <Point x="183" y="238"/>
+        <Point x="370" y="238"/>
+      </Points>
+    </Figure>
+    <Figure type="3" position="112,109">
+      <Content type="Dialog" style="0" size="12" color="-16777216">S_Botella en C</Content>
+    </Figure>
+    <Figure type="3" position="107,162">
+      <Content type="Dialog" style="0" size="12" color="-16777216">Q_Motor_Dcha</Content>
+    </Figure>
+    <Figure type="3" position="98,212">
+      <Content type="Dialog" style="0" size="12" color="-16777216">S_Pallet en A</Content>
+    </Figure>
+    <Figure type="3" position="472,215">
+      <Content type="Dialog" style="0" size="12" color="-16777216">M_Operador quita botella</Content>
+    </Figure>
+  </Figures>
+</LOGO>

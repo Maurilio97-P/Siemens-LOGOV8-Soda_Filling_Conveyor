@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LOGO hardware="Logo8Update1UDF">
+  <Properties>
+    <Creator>Maurilio</Creator>
+    <Projectname></Projectname>
+    <Installationname></Installationname>
+    <Customer></Customer>
+    <Diagramno></Diagramno>
+    <Checked></Checked>
+    <Company></Company>
+    <Version>1.0.2</Version>
+    <Show>true</Show>
+    <Comments></Comments>
+    <Horizontal>1</Horizontal>
+    <Vertical>1</Vertical>
+    <History>
+      <DisplayedHistory>
+        <Date>1668816227041</Date>
+        <User>Maurilio</User>
+        <Version>V8.2.0</Version>
+        <Comments></Comments>
+        <Saved>false</Saved>
+      </DisplayedHistory>
+      <DeletedHistory/>
+    </History>
+    <Zoom>100</Zoom>
+    <PageFormat>
+      <Margin>
+        <Left>28.0</Left>
+        <Top>28.0</Top>
+      </Margin>
+      <Imagesize>
+        <Height>785.0</Height>
+        <Width>538.0</Width>
+      </Imagesize>
+      <Paper>
+        <Height>842.0</Height>
+        <Width>595.0</Width>
+      </Paper>
+      <Orientation>0</Orientation>
+    </PageFormat>
+    <Password>FBCF65020A4760DBD7AA7B5A3E1CC06CB3D1605AC7F9F5D45D4D8A37043CEA4C</Password>
+  </Properties>
+  <UDFBlock guidValue="167321106848925" identifier="M_Finish" comments="" version="1.0.2" blockNumber="0" inCounter="2" outCounter="1" validity="0">
+    <GuidList>
+      <Guid value="1668816376546" version="1.0.0"/>
+      <Guid value="16732097100952" version="1.0.1"/>
+      <Guid value="167321106848925" version="1.0.2"/>
+    </GuidList>
+    <Parameter/>
+    <Blocks>
+      <Block opcode="37" blockNumber="13" name="">
+        <InConnector negate="false" opcode="16777216" blockNumber="1" index="0"/>
+        <InConnector negate="false" opcode="16777216" blockNumber="2" index="1"/>
+        <Parameter index="2">
+          <Rem>false</Rem>
+        </Parameter>
+      </Block>
+      <InGroup>
+        <Block opcode="16777216" blockNumber="1"/>
+        <Block opcode="16777216" blockNumber="2"/>
+      </InGroup>
+      <OutGroup>
+        <Block opcode="16777280" blockNumber="1">
+          <InConnector negate="false" opcode="37" blockNumber="13" index="0"/>
+        </Block>
+      </OutGroup>
+    </Blocks>
+  </UDFBlock>
+  <Figures>
+    <Figure type="5" position="712,79">
+      <Content type="Dialog" style="0" size="12" color="-16777216"></Content>
+    </Figure>
+    <Figure type="0" area="52,79,640.0,480.0">
+      <InGroup>
+        <Figure type="1" opcode="16777216" blockNumber="1" position="46,173"/>
+        <Figure type="1" opcode="16777216" blockNumber="2" position="46,283"/>
+      </InGroup>
+      <OutGroup>
+        <Figure type="1" opcode="16777280" blockNumber="1" position="686,223"/>
+      </OutGroup>
+    </Figure>
+    <Figure type="1" opcode="37" blockNumber="13" position="346,213"/>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="1" direction="0" type="0"/>
+      <Connector index="0" opcode="37" blockNumber="13" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="176"/>
+        <Point x="110" y="176"/>
+        <Point x="110" y="218"/>
+        <Point x="340" y="218"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="2" direction="0" type="0"/>
+      <Connector index="1" opcode="37" blockNumber="13" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="286"/>
+        <Point x="267" y="286"/>
+        <Point x="267" y="228"/>
+        <Point x="340" y="228"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="37" blockNumber="13" direction="0" type="0"/>
+      <Connector index="0" opcode="16777280" blockNumber="1" direction="1" type="0"/>
+      <Points>
+        <Point x="377" y="228"/>
+        <Point x="469" y="228"/>
+        <Point x="469" y="226"/>
+        <Point x="680" y="226"/>
+      </Points>
+    </Figure>
+    <Figure type="3" position="133,196">
+      <Content type="Dialog" style="0" size="12" color="-16777216">S_Botella en C</Content>
+    </Figure>
+    <Figure type="3" position="96,268">
+      <Content type="Dialog" style="0" size="12" color="-16777216">B_Start</Content>
+    </Figure>
+    <Figure type="3" position="444,205">
+      <Content type="Dialog" style="0" size="12" color="-16777216">M_FinDeCiclo</Content>
+    </Figure>
+  </Figures>
+</LOGO>

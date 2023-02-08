@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LOGO hardware="Logo8Update1UDF">
+  <Properties>
+    <Creator>Maurilio</Creator>
+    <Projectname></Projectname>
+    <Installationname></Installationname>
+    <Customer></Customer>
+    <Diagramno></Diagramno>
+    <Checked></Checked>
+    <Company></Company>
+    <Version>1.0.2</Version>
+    <Show>true</Show>
+    <Comments></Comments>
+    <Horizontal>1</Horizontal>
+    <Vertical>1</Vertical>
+    <History>
+      <DisplayedHistory>
+        <Date>1668817651990</Date>
+        <User>Maurilio</User>
+        <Version>V8.2.0</Version>
+        <Comments></Comments>
+        <Saved>false</Saved>
+      </DisplayedHistory>
+      <DeletedHistory/>
+    </History>
+    <Zoom>100</Zoom>
+    <PageFormat>
+      <Margin>
+        <Left>28.0</Left>
+        <Top>28.0</Top>
+      </Margin>
+      <Imagesize>
+        <Height>785.0</Height>
+        <Width>538.0</Width>
+      </Imagesize>
+      <Paper>
+        <Height>842.0</Height>
+        <Width>595.0</Width>
+      </Paper>
+      <Orientation>0</Orientation>
+    </PageFormat>
+    <Password>ECF890F20D73A99CD26B4D5FA75A46457ACC62904BA48A13E296FF86D63A2BEA</Password>
+  </Properties>
+  <UDFBlock guidValue="167547884745572" identifier="M_medir" comments="" version="1.0.2" blockNumber="0" inCounter="3" outCounter="1" validity="0">
+    <GuidList>
+      <Guid value="1668817749162" version="1.0.0"/>
+      <Guid value="167321101389468" version="1.0.1"/>
+      <Guid value="167547884745572" version="1.0.2"/>
+    </GuidList>
+    <Parameter/>
+    <Blocks>
+      <Block opcode="37" blockNumber="28" name="">
+        <InConnector negate="false" opcode="16777216" blockNumber="1" index="0"/>
+        <InConnector negate="false" opcode="1" blockNumber="1" index="1"/>
+        <Parameter index="2">
+          <Rem>false</Rem>
+        </Parameter>
+      </Block>
+      <Block opcode="1" blockNumber="1">
+        <InConnector negate="false" opcode="16777216" blockNumber="2" index="0"/>
+        <InConnector negate="false" opcode="255" blockNumber="-1" index="1"/>
+        <InConnector negate="false" opcode="255" blockNumber="-1" index="2"/>
+        <InConnector negate="false" opcode="16777216" blockNumber="3" index="3"/>
+      </Block>
+      <InGroup>
+        <Block opcode="16777216" blockNumber="1"/>
+        <Block opcode="16777216" blockNumber="2"/>
+        <Block opcode="16777216" blockNumber="3"/>
+      </InGroup>
+      <OutGroup>
+        <Block opcode="16777280" blockNumber="1">
+          <InConnector negate="false" opcode="37" blockNumber="28" index="0"/>
+        </Block>
+      </OutGroup>
+    </Blocks>
+  </UDFBlock>
+  <Figures>
+    <Figure type="5" position="712,79">
+      <Content type="Dialog" style="0" size="12" color="-16777216"></Content>
+    </Figure>
+    <Figure type="0" area="52,79,640.0,480.0">
+      <InGroup>
+        <Figure type="1" opcode="16777216" blockNumber="1" position="46,109"/>
+        <Figure type="1" opcode="16777216" blockNumber="2" position="46,213"/>
+        <Figure type="1" opcode="16777216" blockNumber="3" position="46,348"/>
+      </InGroup>
+      <OutGroup>
+        <Figure type="1" opcode="16777280" blockNumber="1" position="686,143"/>
+      </OutGroup>
+    </Figure>
+    <Figure type="1" opcode="37" blockNumber="28" position="346,133"/>
+    <Figure type="2">
+      <Connector index="0" opcode="37" blockNumber="28" direction="0" type="0"/>
+      <Connector index="0" opcode="16777280" blockNumber="1" direction="1" type="0"/>
+      <Points>
+        <Point x="377" y="148"/>
+        <Point x="440" y="148"/>
+        <Point x="440" y="146"/>
+        <Point x="680" y="146"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="1" direction="0" type="0"/>
+      <Connector index="0" opcode="37" blockNumber="28" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="112"/>
+        <Point x="160" y="112"/>
+        <Point x="160" y="138"/>
+        <Point x="340" y="138"/>
+      </Points>
+    </Figure>
+    <Figure type="3" position="90,91">
+      <Content type="Dialog" style="0" size="12" color="-16777216">S_medicion</Content>
+    </Figure>
+    <Figure type="3" position="92,192">
+      <Content type="Dialog" style="0" size="12" color="-16777216">S_Pallet en A</Content>
+    </Figure>
+    <Figure type="3" position="475,126">
+      <Content type="Dialog" style="0" size="12" color="-16777216">M_medicion</Content>
+    </Figure>
+    <Figure type="1" opcode="1" blockNumber="1" position="256,273"/>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="3" direction="0" type="0"/>
+      <Connector index="3" opcode="1" blockNumber="1" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="351"/>
+        <Point x="160" y="351"/>
+        <Point x="160" y="308"/>
+        <Point x="250" y="308"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="1" blockNumber="1" direction="0" type="0"/>
+      <Connector index="1" opcode="37" blockNumber="28" direction="1" type="0"/>
+      <Points>
+        <Point x="287" y="288"/>
+        <Point x="320" y="288"/>
+        <Point x="320" y="148"/>
+        <Point x="340" y="148"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="2" direction="0" type="0"/>
+      <Connector index="0" opcode="1" blockNumber="1" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="216"/>
+        <Point x="160" y="216"/>
+        <Point x="160" y="278"/>
+        <Point x="250" y="278"/>
+      </Points>
+    </Figure>
+    <Figure type="3" position="70,332">
+      <Content type="Dialog" style="0" size="12" color="-16777216">M_FinDeCiclo</Content>
+    </Figure>
+  </Figures>
+</LOGO>

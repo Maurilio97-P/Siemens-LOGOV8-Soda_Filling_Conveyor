@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LOGO hardware="Logo8Update1UDF">
+  <Properties>
+    <Creator>Maurilio</Creator>
+    <Projectname></Projectname>
+    <Installationname></Installationname>
+    <Customer></Customer>
+    <Diagramno></Diagramno>
+    <Checked></Checked>
+    <Company></Company>
+    <Version>1.0.5</Version>
+    <Show>true</Show>
+    <Comments></Comments>
+    <Horizontal>1</Horizontal>
+    <Vertical>1</Vertical>
+    <History>
+      <DisplayedHistory>
+        <Date>1668818228458</Date>
+        <User>Maurilio</User>
+        <Version>V8.2.0</Version>
+        <Comments></Comments>
+        <Saved>false</Saved>
+      </DisplayedHistory>
+      <DeletedHistory/>
+    </History>
+    <Zoom>100</Zoom>
+    <PageFormat>
+      <Margin>
+        <Left>28.0</Left>
+        <Top>28.0</Top>
+      </Margin>
+      <Imagesize>
+        <Height>785.0</Height>
+        <Width>538.0</Width>
+      </Imagesize>
+      <Paper>
+        <Height>842.0</Height>
+        <Width>595.0</Width>
+      </Paper>
+      <Orientation>0</Orientation>
+    </PageFormat>
+    <Password>22577D933336C0D391FAF8311D05CE8CA4363F864014228B</Password>
+  </Properties>
+  <UDFBlock guidValue="167349281607423" identifier="TON_7seg" comments="" version="1.0.5" blockNumber="0" inCounter="2" outCounter="1" validity="0">
+    <GuidList>
+      <Guid value="1668818468955" version="1.0.0"/>
+      <Guid value="167321222668555" version="1.0.1"/>
+      <Guid value="167348601684130" version="1.0.2"/>
+      <Guid value="16734860637338" version="1.0.3"/>
+      <Guid value="167348696966496" version="1.0.4"/>
+      <Guid value="167349281607423" version="1.0.5"/>
+    </GuidList>
+    <Parameter/>
+    <Blocks>
+      <Block opcode="1" blockNumber="30" name="">
+        <InConnector negate="false" opcode="16777216" blockNumber="1" index="0"/>
+        <InConnector negate="false" opcode="255" blockNumber="-1" index="1"/>
+        <InConnector negate="false" opcode="255" blockNumber="-1" index="2"/>
+        <InConnector negate="false" opcode="3" blockNumber="1" index="3"/>
+      </Block>
+      <Block opcode="3" blockNumber="1">
+        <InConnector negate="false" opcode="16777216" blockNumber="2" index="0"/>
+      </Block>
+      <InGroup>
+        <Block opcode="16777216" blockNumber="1"/>
+        <Block opcode="16777216" blockNumber="2"/>
+      </InGroup>
+      <OutGroup>
+        <Block opcode="16777280" blockNumber="1">
+          <InConnector negate="false" opcode="1" blockNumber="30" index="0"/>
+        </Block>
+      </OutGroup>
+    </Blocks>
+  </UDFBlock>
+  <Figures>
+    <Figure type="5" position="712,79">
+      <Content type="Dialog" style="0" size="12" color="-16777216"></Content>
+    </Figure>
+    <Figure type="0" area="52,79,1190.0,581.0">
+      <InGroup>
+        <Figure type="1" opcode="16777216" blockNumber="1" position="46,109"/>
+        <Figure type="1" opcode="16777216" blockNumber="2" position="46,263"/>
+      </InGroup>
+      <OutGroup>
+        <Figure type="1" opcode="16777280" blockNumber="1" position="1236,192"/>
+      </OutGroup>
+    </Figure>
+    <Figure type="1" opcode="1" blockNumber="30" position="436,163"/>
+    <Figure type="1" opcode="3" blockNumber="1" position="326,253"/>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="1" direction="0" type="0"/>
+      <Connector index="0" opcode="1" blockNumber="30" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="112"/>
+        <Point x="90" y="112"/>
+        <Point x="90" y="168"/>
+        <Point x="430" y="168"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="3" blockNumber="1" direction="0" type="0"/>
+      <Connector index="3" opcode="1" blockNumber="30" direction="1" type="0"/>
+      <Points>
+        <Point x="357" y="268"/>
+        <Point x="359" y="268"/>
+        <Point x="359" y="198"/>
+        <Point x="430" y="198"/>
+      </Points>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="16777216" blockNumber="2" direction="0" type="0"/>
+      <Connector index="0" opcode="3" blockNumber="1" direction="1" type="0"/>
+      <Points>
+        <Point x="64" y="266"/>
+        <Point x="150" y="266"/>
+        <Point x="150" y="268"/>
+        <Point x="320" y="268"/>
+      </Points>
+    </Figure>
+    <Figure type="3" position="150,149">
+      <Content type="Dialog" style="0" size="12" color="-16777216">Q_Bomba de llenado</Content>
+    </Figure>
+    <Figure type="3" position="146,251">
+      <Content type="Dialog" style="0" size="12" color="-16777216">M_de medicion</Content>
+    </Figure>
+    <Figure type="3" position="1148,165">
+      <Content type="Dialog" style="0" size="12" color="-16777216">T_Out_peq</Content>
+    </Figure>
+    <Figure type="2">
+      <Connector index="0" opcode="1" blockNumber="30" direction="0" type="0"/>
+      <Connector index="0" opcode="16777280" blockNumber="1" direction="1" type="0"/>
+      <Points>
+        <Point x="467" y="178"/>
+        <Point x="850" y="178"/>
+        <Point x="850" y="195"/>
+        <Point x="1230" y="195"/>
+      </Points>
+    </Figure>
+  </Figures>
+</LOGO>
