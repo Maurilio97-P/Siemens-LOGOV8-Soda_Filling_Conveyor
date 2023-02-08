@@ -2,7 +2,7 @@
 This is an example of a Soda Filling Conveyor for LOGO!Soft Comfort V8.2 programmed using Function Block Diagram (FBD).
 
 <p align="center">
-  <img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/sorting.PNG" width="800">
+  <img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/IMG_3129.jpg" width="800">
 </p>
 
 ## Requirements:
@@ -26,7 +26,7 @@ This project is an example of a Soda Filling Conveyor for LOGO!Soft Comfort V8.2
 The process for filling up the bottles is divided in 2 parts:
 
 <p align="center">
-  <img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/sorting.PNG" width="800">
+  <img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/IMG_3126.jpg" width="800">
 </p>
 
 **Part I:**
