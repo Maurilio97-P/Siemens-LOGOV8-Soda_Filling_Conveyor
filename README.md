@@ -38,6 +38,10 @@ The process for filling up the bottles is divided in 2 parts:
 * Once the bottle is filled, the pallet continues to POINT C and stops the process.
 * It is requested to program for a single cycle
 
+<p align="center">
+  <img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/IMG_3135.jpg" width="800">
+</p>
+
 **Part II:**
 
 Finish the sequence of Part I and add the following:
