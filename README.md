@@ -64,7 +64,7 @@ This simple example was developed to learn the basics of LOGO!Soft Comfort V8.2 
 
 You can watch the **video** of the results here:
 
-[<img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/thumbnail.PNG" width="50%">](https://youtu.be/y0FjnO8AysQ "Tutorial - Pick&Place con RobotStudio de ABB (Proyecto Final)")
+[<img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/thumbnail.PNG" width="50%">](https://youtu.be/WqXRNHgkSOw "LOGO!V8 - Soda Filling Conveyor Example (Control +)")
 
 https://youtu.be/WqXRNHgkSOw
 
