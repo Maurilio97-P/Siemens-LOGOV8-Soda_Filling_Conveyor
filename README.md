@@ -64,9 +64,9 @@ This simple example was developed to learn the basics of LOGO!Soft Comfort V8.2 
 
 You can watch the **video** of the results here:
 
-[<img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/thumbnail.PNG" width="50%">](https://youtu.be/y0FjnO8AysQ "Tutorial - Pick&Place con RobotStudio de ABB (Proyecto Final)")
+[<img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/thumbnail.PNG" width="50%">](https://youtu.be/y0FjnO8AysQ "Tutorial - Pick&Place con RobotStudio de ABB (Proyecto Final)")
 
-https://youtu.be/y0FjnO8AysQ
+https://youtu.be/WqXRNHgkSOw
 
 ### The Electrical Diagrams consist of 2 parts:
 
@@ -74,13 +74,13 @@ https://youtu.be/y0FjnO8AysQ
 
 The power circuit (also called “main circuit”) indicates the type of power supply for the utilized motors and all other related power devices.
 
-<img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/thumbnail.PNG" width="50%">
+<img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/Circuito_Fuerza.PNG" width="50%">
 
 **Part 2 – Control Circuit**
 
 The control circuit (which can also be referred to as an automation circuit, auxiliary circuit, secondary circuit, or schematic circuit) represents the operational logic and control of the power devices.
 
-<img src="https://github.com/Maurilio97-P/ABB-RobotStudio-Sorting_Pick-Place/blob/main/Images/thumbnail.PNG" width="50%">
+<img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/Circuito_Control.PNG" width="50%">
 
 **Downloading the project (download the .lsc file):**
 In case that the UDF blocks do not show up, verify that the Folder My_UDF_Blocks is linked to the project.
