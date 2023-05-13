@@ -82,6 +82,7 @@ The control circuit (which can also be referred to as an automation circuit, aux
 
 <img src="https://github.com/Maurilio97-P/Siemens-LOGOV8-Soda_Filling_Conveyor/blob/main/Pictures/Circuito_Control.PNG" width="50%">
 
+## Download:
 **Downloading the project (download the .lsc file):**
 In case that the UDF blocks do not show up, verify that the Folder My_UDF_Blocks is linked to the project.
 
